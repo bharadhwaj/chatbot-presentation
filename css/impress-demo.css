@@ -279,6 +279,16 @@ a:focus {
     transform:         translateZ(50px);
 }
 
+.title h2 {
+    font-size: 100px;
+
+    -webkit-transform: translateZ(50px);
+    -moz-transform:    translateZ(50px);
+    -ms-transform:     translateZ(50px);
+    -o-transform:      translateZ(50px);
+    transform:         translateZ(50px);
+}
+
 .title .footnote {
     font-size: 32px;
 }
