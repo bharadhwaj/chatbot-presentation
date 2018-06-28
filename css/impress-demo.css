@@ -327,7 +327,7 @@ a:focus {
 /*
     This step has some animated text ...
 */
-#uses { width: 500px }
+#uses { }
 
 /*
     ... so we define display to `inline-block` to enable transforms and
