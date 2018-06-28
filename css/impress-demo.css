@@ -196,6 +196,8 @@ a:focus {
     transition:         opacity 1s;
 }
 
+
+
 .impress-enabled .step.active { opacity: 1 }
 
 /*
@@ -385,6 +387,70 @@ a:focus {
     -o-transition-delay:      3.5s;
     transition-delay:         3.5s;
 }
+
+#agenda span {
+    display: inline-block;
+    -webkit-transition: 0.5s;
+    -moz-transition:    0.5s;
+    -ms-transition:     0.5s;
+    -o-transition:      0.5s;
+    transition:         0.5s;
+}
+
+
+#agenda.present .scaling-1 {
+    -webkit-transform: scale(1.5);
+    -moz-transform:    scale(1.5);
+    -ms-transform:     scale(1.5);
+    -o-transform:      scale(1.5);
+    transform:         scale(1.5);
+
+    -webkit-transition-delay: 0.5s;
+    -moz-transition-delay:    0.5s;
+    -ms-transition-delay:     0.5s;
+    -o-transition-delay:      0.5s;
+    transition-delay:         0.5s;
+}
+#agenda.present .scaling-2 {
+    -webkit-transform: scale(1.5);
+    -moz-transform:    scale(1.5);
+    -ms-transform:     scale(1.5);
+    -o-transform:      scale(1.5);
+    transform:         scale(1.5);
+
+    -webkit-transition-delay: 1.5s;
+    -moz-transition-delay:    1.5s;
+    -ms-transition-delay:     1.5s;
+    -o-transition-delay:      1.5s;
+    transition-delay:         1.5s;
+}
+#agenda.present .scaling-3 {
+    -webkit-transform: scale(1.5);
+    -moz-transform:    scale(1.5);
+    -ms-transform:     scale(1.5);
+    -o-transform:      scale(1.5);
+    transform:         scale(1.5);
+
+    -webkit-transition-delay: 2.5s;
+    -moz-transition-delay:    2.5s;
+    -ms-transition-delay:     2.5s;
+    -o-transition-delay:      2.5s;
+    transition-delay:         2.5s;
+}
+#agenda.present .scaling-4 {
+    -webkit-transform: scale(1.5);
+    -moz-transform:    scale(1.5);
+    -ms-transform:     scale(1.5);
+    -o-transform:      scale(1.5);
+    transform:         scale(1.5);
+
+    -webkit-transition-delay: 3.5s;
+    -moz-transition-delay:    3.5s;
+    -ms-transition-delay:     3.5s;
+    -o-transition-delay:      3.5s;
+    transition-delay:         3.5s;
+}
+
 
 
 /*
